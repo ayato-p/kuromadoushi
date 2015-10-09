@@ -19,6 +19,9 @@ Usage
 
 .. image:: ./img/kuromadoushi.png
 
+.. image:: http://clojars.org/kuromadoushi/latest-version.svg?style=svg
+    :target: http://clojars.org/kuromadoushi
+
 License
 =======
 
