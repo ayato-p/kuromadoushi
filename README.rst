@@ -14,9 +14,10 @@ Usage
 .. sourcecode:: clojure
 
   (require '[kuromadoushi.core :as kuro])
-  (kuro/render "01234567") ;; => 　　　　　　　　
+  (kuro/render "01234567") ;; => 8 つの全角スペースが出力されるけど見えない…
+  (kuro/render* "01234567") ;; => "[40m　[m[41m　[m[42m　[m[43m　[m[44m　[m[45m　[m[46m　[m[47m　[m"
 
-
+.. image:: ./img/kuromadoushi.png
 
 License
 =======
