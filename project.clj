@@ -1,4 +1,4 @@
-(defproject kuromadoushi "0.1.2-SNAPSHOT"
+(defproject kuromadoushi "0.1.2"
   :description "Kuromadoushi Renderer"
   :url "https://github.com/ayato-p/kuromadoushi"
   :license {:name "MIT License"}
