@@ -16,7 +16,7 @@
    6 ka/cyan-bg
    7 ka/white-bg})
 
-(defn- -render [s]
+(defn -render [s]
   (let [f (fn [c]
             (let [i (Character/digit c 10)]
               (cond

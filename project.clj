@@ -3,6 +3,11 @@
   :url "https://github.com/ayato-p/kuromadoushi"
   :license {:name "MIT License"}
   :repositories {"sonatype-oss-public" "https://oss.sonatype.org/content/groups/public/"}
+  :deploy-repositories [["snapshots" {:url "https://clojars.org/repo/"
+                                      :username [:gpg :env]
+                                      :password [:gpg :env]}]
+                        ["releases" {:url "https://clojars.org/repo/"
+                                     :creds :gpg}]]
   :profiles {:dev    {:resource-paths ["dev-resources"]
                       :dependencies [[org.clojure/clojure "1.7.0"]
                                      [org.clojure/test.check "0.9.0"]]}

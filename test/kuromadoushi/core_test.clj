@@ -5,7 +5,7 @@
             [clojure.test :refer :all]
             [kuromadoushi.core :refer :all]))
 
-(defn valid-str? [s]
+(defn- valid-str? [s]
   (let [t (set (map str (range 8)))]
     (some? (t s))))
 
